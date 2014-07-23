@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		F43217DD197B45E900B08148 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = F43217DC197B45E900B08148 /* ResourcePath.mm */; };
 		F43217E0197B45E900B08148 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43217DF197B45E900B08148 /* main.cpp */; };
-		F43217E3197B45E900B08148 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F43217E2197B45E900B08148 /* cute_image.jpg */; };
-		F43217E5197B45E900B08148 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = F43217E4197B45E900B08148 /* nice_music.ogg */; };
-		F43217E7197B45E900B08148 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F43217E6197B45E900B08148 /* sansation.ttf */; };
-		F43217E9197B45E900B08148 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F43217E8197B45E900B08148 /* icon.png */; };
+		F4D97A94197DA89D002837FB /* Pawn.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D97A93197DA89D002837FB /* Pawn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +17,8 @@
 		F43217DB197B45E900B08148 /* Chess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chess-Info.plist"; sourceTree = "<group>"; };
 		F43217DC197B45E900B08148 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		F43217DE197B45E900B08148 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
-		F43217DF197B45E900B08148 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F43217E2197B45E900B08148 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		F43217E4197B45E900B08148 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		F43217E6197B45E900B08148 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		F43217E8197B45E900B08148 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F43217DF197B45E900B08148 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; usesTabs = 0; };
+		F4D97A93197DA89D002837FB /* Pawn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pawn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +71,7 @@
 		F43217E1197B45E900B08148 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F43217E2197B45E900B08148 /* cute_image.jpg */,
-				F43217E4197B45E900B08148 /* nice_music.ogg */,
-				F43217E6197B45E900B08148 /* sansation.ttf */,
-				F43217E8197B45E900B08148 /* icon.png */,
+				F4D97A93197DA89D002837FB /* Pawn.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -137,10 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43217E9197B45E900B08148 /* icon.png in Resources */,
-				F43217E7197B45E900B08148 /* sansation.ttf in Resources */,
-				F43217E5197B45E900B08148 /* nice_music.ogg in Resources */,
-				F43217E3197B45E900B08148 /* cute_image.jpg in Resources */,
+				F4D97A94197DA89D002837FB /* Pawn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +302,7 @@
 				F43217EE197B45E900B08148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
