@@ -156,7 +156,8 @@ bool Pawn::isLegal(Tile& tile)
 {
     //if illegal return false
     //else it is true
-    if((this->y() != (tile.y() + 100)) && (this->x() == tile.x()))
+    //heigher than the current tile and lower than the one above the one right above it
+    if((this->y() >= tile.bottom() /*&& (this->x() == tile.x())*/ && this->y() <= tile.top()))
     {
         std::cout << "isLegal() output: false" << std::endl;
         std::cout << "this->x() = " << this->x() << std::endl;
